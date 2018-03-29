@@ -26,9 +26,9 @@ chrome.storage.sync.get({
   styles: null,
   domains: null,
 }, function(items) {
-  document.body.append("Put style rules below:");
+  document.body.append("Put style rules below. Recommended: html{filter:saturate(25%);}");
   appendTextarea('styles', items);
 
-  document.body.append("Put domains to skip below (line separated):");
+  document.body.append("Put domains to skip below (line separated).");
   appendTextarea('domains', items);
 });
