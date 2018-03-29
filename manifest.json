@@ -1,0 +1,18 @@
+{
+  "name": "Grayscale the web.",
+  "manifest_version": 2,
+  "version": "0.1",
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  "browser_action": {
+
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ]
+}
